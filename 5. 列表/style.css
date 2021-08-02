@@ -1,0 +1,32 @@
+#nav {
+    width: 300px;
+    background-color: gray;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 1em;
+    line-height: 35px;
+    background: red;
+}
+
+ul {
+    background-color: gray;
+}
+
+ul li {
+    height: 30px;
+    list-style: none;
+    text-indent: 1em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+a:hover {
+    color: yellow;
+}

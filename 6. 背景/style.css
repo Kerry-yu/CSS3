@@ -1,0 +1,24 @@
+div {
+    width: 1000px;
+    height: 700px;
+    border: 1px solid red;
+    background-image: url(img/b.jpg);
+    /*默认全部平铺*/
+}
+
+.title {
+    /* 颜色,图片,图片位置,平铺方式 */
+    background: red url(img/b.jpg) 270px 10px no-repeat;
+}
+
+.div1 {
+    background-repeat: repeat-x;
+}
+
+.div2 {
+    background-repeat: repeat-y;
+}
+
+.div3 {
+    background-repeat: no-repeat;
+}
