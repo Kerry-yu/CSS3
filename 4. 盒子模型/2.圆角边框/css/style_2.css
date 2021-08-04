@@ -1,0 +1,8 @@
+/* 圆圈:圆角边框=宽度 */
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 10px solid red;
+    border-radius: 100px;
+}

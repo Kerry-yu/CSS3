@@ -1,0 +1,34 @@
+body {
+    padding: 20px;
+}
+
+div {
+    margin: 10px;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+#father {
+    border: 1px solid red;
+    padding: 0;
+}
+
+#first {
+    background-color: yellowgreen;
+    border: 1px solid orange;
+    /* 相对定位:上下左右 */
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+
+#second {
+    background-color: tomato;
+    border: 1px solid green;
+}
+
+#third {
+    background-color: skyblue;
+    border: 1px solid yellow;
+}

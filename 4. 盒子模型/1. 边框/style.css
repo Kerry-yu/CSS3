@@ -1,0 +1,55 @@
+/* 常用初始化 */
+
+h2,
+u1,
+li,
+a,
+body {
+    /* body总有一个默认的外边距是0 */
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* border:粗细，样式，颜色 */
+
+#box {
+    width: 300px;
+    border-color: yellow;
+    /* 
+        外边距：上 右 下 左  
+        margin:0;上下左右都为0
+        margin:0 auto ;上下为0，左右为auto
+        margin:0 1px 2px 3px
+    */
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 16px;
+    background-color: pink;
+    line-height: 30px;
+    color: powderblue;
+    text-align: center;
+}
+
+form {
+    background-color: tomato;
+}
+
+div div:nth-of-type(1) input {
+    border: 3px solid black;
+}
+
+div div:nth-of-type(2) input {
+    border: 3px dashed gray;
+}
+
+div div:nth-of-type(3) input {
+    border: 2px solid brown;
+}
+
+div:nth-of-type(1) {
+    padding: 10px;
+}
